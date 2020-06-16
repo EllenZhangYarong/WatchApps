@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A545256C249877A0004326AF /* FirsTry WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A545256B249877A0004326AF /* FirsTry WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A5452572249877A0004326AF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5452570249877A0004326AF /* Interface.storyboard */; };
+		A5452574249877A1004326AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5452573249877A1004326AF /* Assets.xcassets */; };
+		A545257B249877A1004326AF /* FirsTry WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A545257A249877A1004326AF /* FirsTry WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A5452580249877A1004326AF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545257F249877A1004326AF /* InterfaceController.swift */; };
+		A5452582249877A1004326AF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5452581249877A1004326AF /* ExtensionDelegate.swift */; };
+		A5452584249877A1004326AF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5452583249877A1004326AF /* NotificationController.swift */; };
+		A5452586249877A2004326AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5452585249877A2004326AF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A545256D249877A0004326AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5452561249877A0004326AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A545256A249877A0004326AF;
+			remoteInfo = "FirsTry WatchKit App";
+		};
+		A545257C249877A1004326AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5452561249877A0004326AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5452579249877A1004326AF;
+			remoteInfo = "FirsTry WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A545258E249877A2004326AF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A545257B249877A1004326AF /* FirsTry WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5452592249877A2004326AF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A545256C249877A0004326AF /* FirsTry WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A5452567249877A0004326AF /* FirsTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirsTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A545256B249877A0004326AF /* FirsTry WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FirsTry WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5452571249877A0004326AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A5452573249877A1004326AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5452575249877A1004326AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A545257A249877A1004326AF /* FirsTry WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FirsTry WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A545257F249877A1004326AF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A5452581249877A1004326AF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A5452583249877A1004326AF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A5452585249877A2004326AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5452587249877A2004326AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5452588249877A2004326AF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5452577249877A1004326AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5452560249877A0004326AF = {
+			isa = PBXGroup;
+			children = (
+				A545256F249877A0004326AF /* FirsTry WatchKit App */,
+				A545257E249877A1004326AF /* FirsTry WatchKit Extension */,
+				A5452568249877A0004326AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5452568249877A0004326AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5452567249877A0004326AF /* FirsTry.app */,
+				A545256B249877A0004326AF /* FirsTry WatchKit App.app */,
+				A545257A249877A1004326AF /* FirsTry WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A545256F249877A0004326AF /* FirsTry WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A5452570249877A0004326AF /* Interface.storyboard */,
+				A5452573249877A1004326AF /* Assets.xcassets */,
+				A5452575249877A1004326AF /* Info.plist */,
+			);
+			path = "FirsTry WatchKit App";
+			sourceTree = "<group>";
+		};
+		A545257E249877A1004326AF /* FirsTry WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A545257F249877A1004326AF /* InterfaceController.swift */,
+				A5452581249877A1004326AF /* ExtensionDelegate.swift */,
+				A5452583249877A1004326AF /* NotificationController.swift */,
+				A5452585249877A2004326AF /* Assets.xcassets */,
+				A5452587249877A2004326AF /* Info.plist */,
+				A5452588249877A2004326AF /* PushNotificationPayload.apns */,
+			);
+			path = "FirsTry WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5452566249877A0004326AF /* FirsTry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5452593249877A2004326AF /* Build configuration list for PBXNativeTarget "FirsTry" */;
+			buildPhases = (
+				A5452565249877A0004326AF /* Resources */,
+				A5452592249877A2004326AF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A545256E249877A0004326AF /* PBXTargetDependency */,
+			);
+			name = FirsTry;
+			productName = FirsTry;
+			productReference = A5452567249877A0004326AF /* FirsTry.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A545256A249877A0004326AF /* FirsTry WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A545258F249877A2004326AF /* Build configuration list for PBXNativeTarget "FirsTry WatchKit App" */;
+			buildPhases = (
+				A5452569249877A0004326AF /* Resources */,
+				A545258E249877A2004326AF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A545257D249877A1004326AF /* PBXTargetDependency */,
+			);
+			name = "FirsTry WatchKit App";
+			productName = "FirsTry WatchKit App";
+			productReference = A545256B249877A0004326AF /* FirsTry WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A5452579249877A1004326AF /* FirsTry WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A545258B249877A2004326AF /* Build configuration list for PBXNativeTarget "FirsTry WatchKit Extension" */;
+			buildPhases = (
+				A5452576249877A1004326AF /* Sources */,
+				A5452577249877A1004326AF /* Frameworks */,
+				A5452578249877A1004326AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FirsTry WatchKit Extension";
+			productName = "FirsTry WatchKit Extension";
+			productReference = A545257A249877A1004326AF /* FirsTry WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5452561249877A0004326AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ellen Zhang";
+				TargetAttributes = {
+					A5452566249877A0004326AF = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					A545256A249877A0004326AF = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					A5452579249877A1004326AF = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = A5452564249877A0004326AF /* Build configuration list for PBXProject "FirsTry" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5452560249877A0004326AF;
+			productRefGroup = A5452568249877A0004326AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5452566249877A0004326AF /* FirsTry */,
+				A545256A249877A0004326AF /* FirsTry WatchKit App */,
+				A5452579249877A1004326AF /* FirsTry WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5452565249877A0004326AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5452569249877A0004326AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5452574249877A1004326AF /* Assets.xcassets in Resources */,
+				A5452572249877A0004326AF /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5452578249877A1004326AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5452586249877A2004326AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5452576249877A1004326AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5452584249877A1004326AF /* NotificationController.swift in Sources */,
+				A5452582249877A1004326AF /* ExtensionDelegate.swift in Sources */,
+				A5452580249877A1004326AF /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A545256E249877A0004326AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A545256A249877A0004326AF /* FirsTry WatchKit App */;
+			targetProxy = A545256D249877A0004326AF /* PBXContainerItemProxy */;
+		};
+		A545257D249877A1004326AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5452579249877A1004326AF /* FirsTry WatchKit Extension */;
+			targetProxy = A545257C249877A1004326AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5452570249877A0004326AF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5452571249877A0004326AF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5452589249877A2004326AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A545258A249877A2004326AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A545258C249877A2004326AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FirsTry WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellenzhang.FirsTry.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		A545258D249877A2004326AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FirsTry WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellenzhang.FirsTry.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		A5452590249877A2004326AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = FirsTry_WatchKit_Extension;
+				INFOPLIST_FILE = "FirsTry WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellenzhang.FirsTry.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		A5452591249877A2004326AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = FirsTry_WatchKit_Extension;
+				INFOPLIST_FILE = "FirsTry WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellenzhang.FirsTry.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		A5452594249877A2004326AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellenzhang.FirsTry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A5452595249877A2004326AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ellenzhang.FirsTry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5452564249877A0004326AF /* Build configuration list for PBXProject "FirsTry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5452589249877A2004326AF /* Debug */,
+				A545258A249877A2004326AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A545258B249877A2004326AF /* Build configuration list for PBXNativeTarget "FirsTry WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A545258C249877A2004326AF /* Debug */,
+				A545258D249877A2004326AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A545258F249877A2004326AF /* Build configuration list for PBXNativeTarget "FirsTry WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5452590249877A2004326AF /* Debug */,
+				A5452591249877A2004326AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5452593249877A2004326AF /* Build configuration list for PBXNativeTarget "FirsTry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5452594249877A2004326AF /* Debug */,
+				A5452595249877A2004326AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5452561249877A0004326AF /* Project object */;
+}
